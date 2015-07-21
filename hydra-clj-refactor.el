@@ -164,8 +164,8 @@ Use upper-case letter to get more info.
   ("A" (cljr-describe-refactoring "cljr-add-project-dependency"))
   ("m" cljr-move-form)
   ("M" (cljr-describe-refactoring "cljr-move-form"))
-  ("n" cljr-rename-file-or-dir)
-  ("N" (cljr-describe-refactoring "cljr-rename-file-or-dir"))
+  ("r" cljr-rename-file-or-dir)
+  ("R" (cljr-describe-refactoring "cljr-rename-file-or-dir"))
   ("b" hydra-clj-refactor/body "back")
   ("q" nil "cancel"))
 
