@@ -192,7 +192,7 @@ _?_: Describe refactoring
   ("q" nil "cancel"))
 
 
-(define-key clojure-mode-map (kbd "C-c C-r") 'hydra-clj-refactor/body)
+(define-key clojure-mode-map (kbd "C-c C-v") 'hydra-clj-refactor/body)
 
 (provide 'hydra-clj-refactor)
 
