@@ -155,6 +155,7 @@ _c_: Some clean up on all clj files in a project in bulk
 _a_: Add project dependency and hot reload it in the REPL
 _m_: Move one or more forms to another namespace and :refer any functions
 _r_: Rename a file or directory updating ns declarations project-wide
+_u_: Prompts to update dependencies in project.clj
 
 Use upper-case letter to get more info.
 "
@@ -166,6 +167,8 @@ Use upper-case letter to get more info.
   ("M" (cljr-describe-refactoring "cljr-move-form"))
   ("r" cljr-rename-file-or-dir)
   ("R" (cljr-describe-refactoring "cljr-rename-file-or-dir"))
+  ("u" cljr-update-project-dependencies)
+  ("U" (cljr-describe-refactoring "cljr-update-project-dependencies"))
   ("b" hydra-clj-refactor/body "back")
   ("q" nil "cancel"))
 
